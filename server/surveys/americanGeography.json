@@ -1,0 +1,199 @@
+{
+  "title" : "American Cultural Regions",
+  "intro" : "There are a number of regions that people talk about in the United States. We're interested in where you believe some of these regions are. We are going to ask you to draw a few (4) of these regions on a map to help us understand where you believe these areas are. There are no right or wrong answers; we are interested in specifically you think these areas are. We will then ask you to listen to a few (3) samples of speech from these different regions and answer two quick questions about each. We anticipate that this should only take you at most a few (between 5 and 10) minutes.",
+  "startText": "Start the study",
+  "activities": [
+    {
+      "title": "About you",
+      "helpText": "Before we begin, we'd like to know a little bit more about you. Please tell us more about yourself by answering the following questions.",
+      "type": "form",
+      "questions": [
+        {
+          "question": "How old are you?",
+          "type": "text"
+        },
+        {
+          "question": "What is the highest level of school you have completed?",
+          "type": "select",
+          "options": [
+            "None",
+            "Elementary school",
+            "High school",
+            "Associate's degree",
+            "Bachelor's degree",
+            "Master's degree or more"
+          ]
+        },
+		{
+		  "question": "What state do you currently live in?",
+		  "type": "select",
+		  "options": [
+		    "Alabama",
+            "Alaska",
+            "Arizona",
+            "Arkansas",
+            "California",
+            "Colorado",
+            "Connecticut",
+            "Delaware",
+            "Florida",
+            "Georgia",
+            "Hawaii",
+            "Idaho",
+            "Illinois",
+            "Indiana",
+            "Iowa",
+            "Kansas",
+            "Kentucky",
+            "Louisiana",
+            "Maine",
+            "Maryland",
+            "Massachusetts",
+            "Michigan",
+            "Minnesota",
+            "Mississippi",
+            "Missouri",
+            "Montana",
+            "Nebraska",
+            "Nevada",
+            "New Hampshire",
+            "New Jersey",
+            "New Mexico",
+            "New York",
+            "North Carolina",
+            "North Dakota",
+            "Ohio",
+            "Oklahoma",
+            "Oregon",
+            "Pennsylvania",
+            "Rhode Island",
+            "South Carolina",
+            "South Dakota",
+            "Tennessee",
+            "Texas",
+            "Utah",
+            "Vermont",
+            "Virginia",
+            "Washington",
+            "West Virginia",
+            "Wisconsin",
+            "Wyoming"
+		  ]
+		},
+		{
+		  "question": "If someone asked you what state you grew up in, and you had to choose only one state, what state would you say?",
+		  "type": "select",
+		  "options": [
+		    "Alabama",
+            "Alaska",
+            "Arizona",
+            "Arkansas",
+            "California",
+            "Colorado",
+            "Connecticut",
+            "Delaware",
+            "Florida",
+            "Georgia",
+            "Hawaii",
+            "Idaho",
+            "Illinois",
+            "Indiana",
+            "Iowa",
+            "Kansas",
+            "Kentucky",
+            "Louisiana",
+            "Maine",
+            "Maryland",
+            "Massachusetts",
+            "Michigan",
+            "Minnesota",
+            "Mississippi",
+            "Missouri",
+            "Montana",
+            "Nebraska",
+            "Nevada",
+            "New Hampshire",
+            "New Jersey",
+            "New Mexico",
+            "New York",
+            "North Carolina",
+            "North Dakota",
+            "Ohio",
+            "Oklahoma",
+            "Oregon",
+            "Pennsylvania",
+            "Rhode Island",
+            "South Carolina",
+            "South Dakota",
+            "Tennessee",
+            "Texas",
+            "Utah",
+            "Vermont",
+            "Virginia",
+            "Washington",
+            "West Virginia",
+            "Wisconsin",
+            "Wyoming"
+		  ]
+		}
+      ]
+    },
+    {
+      "title": "American Geographic Regions",
+      "helpText": "We will now ask you to draw some areas on the map. If you click the region name in the side panel, you can draw that area on the map. If you click the name again, you can re-draw the region. When you are done, please click the Submit button.",
+      "type": "map",
+      "center": [38.678052, -96.273380],
+      "zoomLevel": 4,
+      "questions": [
+        {
+          "question": "Draw New England",
+          "type": "area"
+        },
+        {
+          "question": "Draw the South",
+          "type": "area"
+        },
+		{
+          "question": "Draw the Midwest",
+          "type": "area"
+        },
+		{
+          "question": "Draw the Pacific Northwest",
+          "type": "area"
+        }
+      ]
+    },
+	{
+      "title": "Some American Voices",
+      "helpText": "Listen to the following audio clips and answer some questions about them.",
+      "type": "randomAudio",
+      "replays": "3",
+      "audioFiles": [
+        "boss.wav",
+        "parking.wav",
+		"wipe.wav"
+      ],
+      "questions": [
+        {
+          "question": "What did the person say?",
+          "type": "text"
+        },
+        {
+          "question": "If you were asked, could you guess where they came from? If so, where do you think they came from?",
+          "type": "text"
+        }
+      ]
+    },
+	{
+      "title": "Survey complete!",
+      "helpText": "Please take a moment and provide any feedback you have about this interface. Was it difficult or easy to use? Thank you!",
+      "type": "form",
+      "questions": [
+        {
+          "question": "Your feedback:",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,9 @@ import { idFromString } from '../util';
 import alpaca from '../assets/alpaca.mp3';
 import camel from '../assets/camel.mp3';
 import llama from '../assets/llama.wav';
+import boss from '../assets/boss.wav';
+import parking from '../assets/parking.wav';
+import wipe from '../assets/wipe.wav';
 
 const NextButton = styled(Button)`
   float: right;
@@ -36,7 +39,10 @@ const idFromFileNameAndQuestionId = (fileName, questionId) => {
 const audioMap = {
   'alpaca.mp3': alpaca,
   'camel.mp3': camel,
-  'llama.wav': llama
+  'llama.wav': llama,
+  'boss.wav': boss,
+  'parking.wav': parking,
+  'wipe.wav': wipe
 };
 
 class RandomAudioActivity extends Component {
