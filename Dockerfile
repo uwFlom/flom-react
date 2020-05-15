@@ -45,6 +45,6 @@ ARG survey_name
 ENV SURVEY=$survey_name
 
 # App will run on port 3000
-EXPOSE 3000
+EXPOSE 3001
 
 ENTRYPOINT ["/bin/start.sh"]

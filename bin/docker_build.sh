@@ -5,7 +5,7 @@ TAG=${FILE_NAME%.json}
 
 echo "Building docker container for survey" $TAG
 
-if [[ -z "$TAG" ]]; then
+if [ -z "$TAG" ]; then
     echo "No survey specified. Building generic survey."
     TAG="latest"
 fi
